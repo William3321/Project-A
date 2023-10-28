@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="todo-app">
+        <h1>To-Do List</h1>
+        <div id="Counter-Results">          
+            <p>tasks completed</p> 
+            <p id="Counter">0</p>
+        </div>
+
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Enter New Task">
+            <img src="Images\add.png" onclick="addTask()" alt="">    
+        </div>
+        <p id="Errormessage">Input must not be empty</p>
+
+        <div>
+            <ul id="list-container">
+            </ul> 
+        </div>
+    </div>
+</div>
+    <script src="Script.js"></script>
+</body>
+</html>
