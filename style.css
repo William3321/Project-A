@@ -3,7 +3,8 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    background-color: darkgray;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(91,91,91,1) 50%, rgba(143,143,143,1) 100%);
 }
 
 .todo-app{
