@@ -4,7 +4,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(91,91,91,1) 50%, rgba(143,143,143,1) 100%);
+    background-image: linear-gradient(black, white);
 }
 
 .todo-app{
